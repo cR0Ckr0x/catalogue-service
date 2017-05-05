@@ -1,0 +1,14 @@
+# Node & builds
+/node_modules
+bundle.js
+npm-debug.log
+
+# Mac files
+.DS_Store
+
+# IntelliJ
+*.iml
+/.idea
+
+# Other
+notes/*
