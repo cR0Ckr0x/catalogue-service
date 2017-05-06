@@ -1,9 +1,8 @@
-import {CHANGE_AUTH} from "../actions/types";
+import {CHANGE_AUTH, GET_USER_LOCATIONID} from "../actions/types";
 
 export const initialState = {
     authenticated: false,
-    customerID: null,
-    locationID: null
+    customerID: null
 }
 
 export default function(state = initialState, action) {

@@ -6,11 +6,12 @@ import { createStore, applyMiddleware } from 'redux';
 import { BrowserRouter as Router } from 'react-router-dom';
 import createBrowserHistory from 'history/createBrowserHistory';
 const history = createBrowserHistory();
+import thunk from 'redux-thunk';
 
 import reducers from './reducers';
 import routes from './routes';
 
-const createStoreWithMiddleware = applyMiddleware()(createStore);
+const createStoreWithMiddleware = applyMiddleware(thunk)(createStore);
 
 ReactDOM.render(
   <Provider store={createStoreWithMiddleware(reducers)}>

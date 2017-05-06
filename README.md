@@ -16,15 +16,18 @@ start the service using the following commands:
 > npm start
 ```
 
+### Running tests
+
+```
+npm run test
+```
+
 # Authentication
 
-When the users visits the home page, it is asked to provide a valid login.
+When the users visits the home page, he is provided with a simple navigation and a
+login button.
 
-The following are valid logins:
-- user1:pass1
-- user2:pass2
-
-After the user has been correctly logged in, the app presents 2 new pages: profile and
+Once the user has been correctly logged in, the app presents 2 new pages: profile and
 catalogue.
 
 # Profile view
@@ -36,6 +39,5 @@ On the profile page, a user can change its location which will be used in other 
 The catalogue view takes the user-logged data and shows him the products available for
 his account and location.
 
-Upon choosing and confirming new products, the user will be taken to a confirmation
-page, which serves either as a revision and a final confirm before changing his
-subscription.
+Upon choosing new products, the user will be taken to a confirmation page, which
+serves either as a revision and a final confirm before changing his subscription.

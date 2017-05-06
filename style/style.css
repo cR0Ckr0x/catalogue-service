@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+
+.text-with-input {
+    margin-top: 4px;
+}
+.catalogue-service-component input[type="checkbox"] + label {
+    margin-left: 10px;
+}
+
+.btn.login-btn {
+    outline: none !important;
+}
+
+.thanks-txt {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 100px;
+    color: #232323;
+    text-align: center;
+}
