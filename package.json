@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Simple implementation of acatalogue service and a product selection web page",
   "main": "index.js",
-  "repository": "",
+  "repository": "git@github.com:cR0Ckr0x/catalogue-service.git",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "test": "mocha --compilers js:babel-core/register --recursive ./test",
