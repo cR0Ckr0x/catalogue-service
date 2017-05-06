@@ -10,7 +10,7 @@ To run this example you need to checkout this repo, install dependencies with np
 start the service using the following commands:
 
 ```
-> git clone [GitHub_URL]
+> git clone https://github.com/cR0Ckr0x/catalogue-service
 > cd catalogue-service
 > npm install
 > npm start
